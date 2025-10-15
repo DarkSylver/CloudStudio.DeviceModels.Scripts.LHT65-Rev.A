@@ -2,7 +2,8 @@ function parseUplink(device, payload)
 {
     var parsed = payload.asParsedObject();
     env.log(parsed);    
-    
+
+
     device.updateDeviceGeolocation(38.77704970747451, 0.08254128465790134);
 
     // Store 
